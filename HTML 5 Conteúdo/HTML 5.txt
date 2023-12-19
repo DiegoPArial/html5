@@ -1,0 +1,476 @@
+ 
+<!--ASSIM É O COMENTÁRIO NO HTML-->
+
+//deixar em negrito a palavra "pagina" em html
+Minha primeira <b>pagina</b> web
+
+<head>
+   Configura informações que não aparecem diretamente para o usuário, mas são tão importantes quanto
+</head>
+
+<body>
+   Configura informações que aparecem diretamente para o usuário
+</body>
+
+----------------------------------------------------------------------------------------------------------
+
+//tipo do documento, neste caso html5
+<!doctype html>
+
+<html>
+
+//título da página e o meta charset para acentos funcionarem
+    <head>
+        <title>Meu site</title>
+        <meta charset="utf-8">
+    </head>
+
+    <body>
+
+//<h1> é cabeçalho (vai até o 6), <p> é parágrafo e <hr> cria uma linha entre estes 2 parágrafos
+        <h1>Sobre a empresa</h1>
+        <p>Finge que isso é um parágrafo imenso mas na verdade é só um teste
+            com muitos carecteres para que meu código possa organizá-lo de
+            maneira coerente e bela, obrigado curso que está me ajudando a
+            estudar algo que o professor Mário não teve a capacidade de nos 
+            ensinar em sala de aula.</p>
+
+        <hr>
+        
+        <h1>Sobre a empresa</h1>
+        <p>Finge que isso é um parágrafo imenso mas na verdade é só um teste
+            com muitos carecteres para que meu código possa organizá-lo de
+            maneira coerente e bela, obrigado curso que está me ajudando a
+            estudar algo que o professor Mário não teve a capacidade de nos 
+            ensinar em sala de aula.</p>
+
+    </body>
+
+</html>
+
+----------------------------------------------------------------------------------------------------------
+
+<!doctype html>
+
+<html>
+
+    <head>
+        <title>Meu site</title>
+        <meta charset="utf-8">
+    </head>
+
+    <body>
+        Esse é um texto <strong>negrito</strong> <br>
+        Esse é um texto <em>italico</em> <br>
+        Esse é um texto <u>underline</u> <br>
+        Esse é um texto <strike>errado</strike> <br>
+    </body>
+
+</html>
+
+----------------------------------------------------------------------------------------------------------
+
+<!doctype html>
+
+<html>
+
+    <head>
+        <title>Meu site</title>
+        <meta charset="utf-8">
+    </head>
+
+    <body>
+
+        <!--LISTA NÃO ORDENADA-->
+        <h2>Lista de Compras</h2>
+        <!--circle, square, disc-->
+        <ul type="circle">
+            <li>Notebook</li>
+            <li>Celular</li>
+            <li>Computador</li>
+            <li>Mouse</li>
+            <li>Teclado</li>
+        </ul>
+
+        <!--LISTA ORDENADA-->
+        <h2>Perguntas</h2>
+        <!--1, A, a, I, i-->
+        <ol type="1">
+            <li>Comida Favorita?</li>
+            <li>Carro Favorito?</li>
+            <li>Série Favorita?</li>
+        </ol>
+
+
+    </body>
+
+</html>
+
+----------------------------------------------------------------------------------------------------------
+
+Desafio:
+
+<!doctype html>
+
+<html>
+
+    <head>
+        <title>Meu site</title>
+        <meta charset="utf-8">
+    </head>
+
+    <body>
+
+        <h1>A empresa</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse euismod a ex faucibus semper.</p>
+
+        <hr>
+
+        <h1>Vantagem de ser cliente</h1>
+        <ol>
+            <li>Atendimento <strong>rápido</strong></li>
+            <li>Preços especiais</li>
+            <li>Muitas cidades</li>
+        </ol>
+
+        <hr>
+
+        <h1>O que os clientes estão dizendo:</h1>
+        <em>"Gostei demais do atendimento , foi muito rápido e com certeza irei voltar!"</em> <br>
+        <strong>Maria Almeida</strong> <br>
+
+        <hr>
+
+        <h1>Mapa do site</h1>
+        <ul>
+            <li>Home</li>
+            <li>Quem somos</li>
+            <li>Contato</li>
+        </ul>
+
+    </body>
+
+</html>
+
+----------------------------------------------------------------------------------------------------------
+
+<!--Colocar imagens no site, deixar a imagem em uma pasta junto com o projeto, width é largura e height é altura-->
+
+<!doctype html>
+
+<html>
+
+    <head>
+        <title>Meu site</title>
+        <meta charset="utf-8">
+    </head>
+
+    <body>
+        <img src="imagens/killua.jpg" width="200" height="400">
+    </body>
+
+</html>
+
+----------------------------------------------------------------------------------------------------------
+
+O arquivo que se chama "index.html" sempre será a página principal de um site
+
+Esses 2 arquivos permitem navegarem entre si pelos links
+
+<!--index.html-->
+
+<!doctype html>
+
+<html>
+
+    <head>
+        <title>Página principal</title>
+        <meta charset="utf-8">
+    </head>
+
+    <body>
+
+        <h2>Página Principal</h2>
+
+        <a href="contato.html">
+            Contato
+        </a>
+
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+            nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur.
+        </p>
+
+    </body>
+
+</html>
+
+
+<!--contato.html-->
+
+<!doctype html>
+
+<html>
+
+    <head>
+        <title>Contato</title>
+        <meta charset="utf-8">
+    </head>
+
+    <body>
+
+        <h2>Página de Contato</h2>
+
+        <a href="index.html">
+            Home
+        </a>
+
+        <p>
+            Tmjjjjj vsfd
+        </p>
+    </body>
+
+</html>
+
+----------------------------------------------------------------------------------------------------------
+
+
+<!--Fazer tabelas, deixar tudo dentro de <table>, usar o <tr> e após isso o <th> para cabeçalho da tabela e <td> para dados da tabela-->
+
+<!doctype html>
+
+<html>
+
+    <head>
+        <title>Página principal</title>
+        <meta charset="utf-8">
+    </head>
+
+    <body>
+
+        <h2>Lista de Produtos</h2>
+
+        <table border="2">
+
+            <tr>
+                <th>Código</th>
+                <th>Produto</th>
+                <th>Preço</th>
+            </tr>
+
+            <tr>
+                <td>001</td>
+                <td>Notebook</td>
+                <td>R$ 1.389,90</td>
+            </tr>
+
+            <tr>
+                <td>002</td>
+                <td>Tablet</td>
+                <td>R$ 1.049,90</td>
+            </tr>
+
+        </table>
+
+    </body>
+
+</html>
+
+
+----------------------------------------------------------------------------------------------------------
+
+<!--Mais sobre tabelas, colspan é um mesclar para colunas e rowspan é um mesclar para linhas-->
+
+<!doctype html>
+
+<html>
+
+    <head>
+        <title>Página principal</title>
+        <meta charset="utf-8">
+    </head>
+
+    <body>
+
+        <h2>Lista de Produtos</h2>
+
+        <table border="2" width="400">
+
+            <tr>
+                <th>Código</th>
+                <th>Produto</th>
+                <th>Preço</th>
+            </tr>
+
+            <tr>
+                <td>001</td>
+                <td>Tablet</td>
+                <td>R$ 1.389,90</td>
+            </tr>
+
+            <tr>
+                <td>002</td>
+                <td>Tablet</td>
+                <td>R$ 1.049,90</td>
+            </tr>
+
+            <tr>
+                <td rowspan="2">Desconto</td>
+                <td colspan="2">R$ -10,00</td>
+            </tr>
+
+            <tr>
+                <td colspan="2">R$ -15,00</td>
+            </tr>
+
+        </table>
+
+    </body>
+
+</html>
+
+----------------------------------------------------------------------------------------------------------
+
+<!doctype html>
+
+<html>
+
+    <head>
+        <title>Página principal</title>
+        <meta charset="utf-8">
+    </head>
+
+    <body>
+
+        <h2>Login</h2>
+
+<!--Formulário: login e cadastro-->
+        <form>
+
+            Login:<br>
+            <input type="text" name="login"><br>
+
+            Senha:<br>
+            <input type="password" name="senha"><br><br>
+
+            <input type="button" value="Logar">
+
+        </form>
+
+        <h2>Cadastre-se</h2>
+
+        <form>
+
+            Login:<br>
+            <input type="text" name="login"><br><br>
+
+<!--radio: selecionar um ou outro, tendo o mesmo name-->
+            Sexo:<br>
+            <input type="radio" name="sexo" value="M"> Masculino <br>
+            <input type="radio" name="sexo" value="F"> Feminino <br><br>
+
+<!--Checkbox pode marcar todos de uma vez, mesmo com name igual-->
+            Interesses<br>
+            <input type="checkbox" name="interesses"> Futebol<br>
+            <input type="checkbox" name="interesses"> Cursos<br>
+            <input type="checkbox" name="interesses"> Moda<br><br>
+
+<!--Opções tipo "selecione"-->
+            Estado<br>
+            <select name="estado">
+                <option value="selecionar"></option>
+                <option value="sp">SP</option>
+                <option value="rj">RJ</option>
+                <option value="mg">MG</option>
+                <option value="pr">PR</option>
+            </select><br><br>
+
+<!--Caixa de texto maior-->
+            Observações<br>
+            <textarea></textarea><br>
+
+<!--Botão de enviar as informações-->
+            <input type="submit" value="Cadastrar">
+
+        </form>
+
+    </body>
+
+</html>
+
+----------------------------------------------------------------------------------------------------------
+
+<!--Para caracteres que não aparecem, como por exemplo o < e >, são usados esses caracteres &lt; e &gt; no lugar, assim ele aparece, pesquisar esses caracteres em "html entities"-->
+
+<!doctype html>
+
+<html>
+
+    <head>
+        <title>Página principal</title>
+        <meta charset="utf-8">
+    </head>
+
+    <body>
+
+        <h2>Caracteres Especiais</h2>
+
+&lt;p&gt;
+
+    </body>
+
+</html>
+
+----------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
